@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      max-width: 1440px;
+    }
+
+    p{
+      font-size: 15px;
+      color: hsl(220, 15%, 55%);
+    }
+
+    h4{
+      font-weight: bold;
+      font-size: 22px;
+      margin-top: 270px;
+      color: hsl(219, 15%, 30%);
+    }
+
+    .attribution { font-size: 13px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution{
+      position: absolute;
+      margin-left: 465px;
+      margin-top: 75px;
+    }
+
+    #placenter{
+      border-radius: 20px;
+      border: 3px solid white;
+      background-color: white;
+      height: 410px;
+      width: 260px;
+      margin-left: 415px;
+      margin-top: 5%;
+      text-align: center;
+      display: inline-block;
+      margin-bottom: 5%;
+    }
+
+    #qrcode{
+      position: absolute;
+      float: left;
+      margin-top: 75px;
+      margin-left: 435px;
+      width: 230px;
+      border-radius: 15px;
+    }
+
+    #all{
+      border-radius: 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 75px;
+      background-color: hsl(219, 82%, 70%);
+      border: 3px solid hsl(219, 82%, 70%);
+    }
+
+    
+
+  </style>
+</head>
+<body>
+  <div id="all">
+  <div id="qrframe">
+    <img id="qrcode" src="../qr-code-component-main/images/image-qr-code.png" alt="qrcode" title="site">
+  </div>
+  <div id="placenter">
+    <h4>Improve your front-end skills by building porjects</h4>
+    <p>Scan the QR code to visit frontend Mentor and take your coding skills to next level</p>
+  </div>
+  <div class="attribution">
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    <a href="#">EdsonPHJ</a>.
+  </div>
+  </div>
+</body>
+</html>
